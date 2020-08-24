@@ -27,7 +27,7 @@ def render_file():
         detector = MTCNN()
 
     if model == None:
-        model = load_model('static/keras_model/1layer_128_1_best(1)-SGD.h5')
+        model = load_model('/static/keras_model/1layer_128_1_best(1)-SGD.h5')
 
     return render_template('upload.html')
 
