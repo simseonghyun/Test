@@ -1,0 +1,45 @@
+#result_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width : 350px;
+  height: 450px;
+}
+
+.progress_bar{
+    display:block;
+     margin-left: 20%;
+     margin-right: 20%;
+}
+.class-text{
+display:block;
+}
+
+.text_block{
+    display:inline;
+}
+
+.w3-center{
+
+color : black!important;
+text-align:right!important;
+}
+
+.list_text{
+    display:inline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px auto;
+  padding: 10px;
+}
+.grid-item {
+  text-align: center;
+}
+.result_text{
+    text-align : center;
+}
+.instructor{
+    text-align : center;
+}
