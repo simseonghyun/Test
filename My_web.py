@@ -31,7 +31,7 @@ def render_file():
 
     return render_template('upload.html')
 
-@app.route('/file_uploaded', methods = ['GET', 'POST'])
+@app.route('/file_uploaded')
 def upload_file():
     return render_template('fail_back.html')
 if __name__ == '__main__':
