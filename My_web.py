@@ -26,6 +26,9 @@ def render_file():
     if detector == None :
         detector = MTCNN()
         
+    if model == None:
+        model = load_model('./static/keras_model/1layer_128_1_best(1)-SGD.h5')
+        
     return render_template('upload.html')
 
 @app.route('/file_uploaded', methods = ['GET', 'POST'])
